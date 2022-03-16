@@ -1,8 +1,10 @@
+import styles from './Frase.module.css'
+
 function Frase (props) {
     
     return(
-        <div>
-            <p>{props.children}</p>
+        <div className={styles.fraseContainer}>
+            <p className={styles.fraseContent}>{props.children}</p>
         </div>
     )
 }

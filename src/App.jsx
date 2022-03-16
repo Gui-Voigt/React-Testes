@@ -1,4 +1,5 @@
 import './App.css'
+import '../index.css'
 import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <div>
       <HelloWorld/>
-      <SayMyName name="Guilherme" origem="Trindade" classe="Caçador"/>
+      <SayMyName name="Guilherme"/>
     </div>
   )
 }
