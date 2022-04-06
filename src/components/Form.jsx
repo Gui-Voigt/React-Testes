@@ -13,7 +13,7 @@ function Form(){
 
     return(
         <>
-        <h1> MEU CADASTRO: {name} </h1>
+        <h1> MEU CADASTRO:</h1>
         <form onSubmit={cadastrarUsuario}>
             <div>
                 <label htmlFor="name">Nome:</label>
