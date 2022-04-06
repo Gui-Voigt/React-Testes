@@ -1,3 +1,4 @@
+import Button from './Button'
 function Evento(){
 
     var ativacoes = 0
@@ -9,7 +10,7 @@ function Evento(){
     return(
         <>
             <p> Clique para dispara um evento: </p>
-            <button onClick={meuEvento}>Ativar!</button>        
+            <Button text="Ativar" event={meuEvento} />    
         </>
     )
 }
