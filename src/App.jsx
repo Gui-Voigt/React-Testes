@@ -5,6 +5,7 @@ import SayMyName from './components/SayMyName'
 import List from './components/List'
 import Evento from './components/Evento'
 import Form from './components/Form'
+import Conditional from './components/Conditional'
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
 
       <hr></hr>
       <Form/>
+
+      <hr></hr>
+      <h2> Renderização condicional </h2>
+      <Conditional/>
     </div>
   )
 }
