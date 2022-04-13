@@ -6,7 +6,9 @@ import List from './components/List'
 import Evento from './components/Evento'
 import Form from './components/Form'
 import Conditional from './components/Conditional'
+import OutraLista from './components/OutraLista'
 
+const meusItens = ['React', 'Vue', 'Angular']  
 
 function App() {
   return (
@@ -26,6 +28,11 @@ function App() {
       <hr></hr>
       <h2> Renderização condicional </h2>
       <Conditional/>
+
+      <hr></hr>
+      <h2> Renderização de Listas </h2>
+      <OutraLista itens={meusItens}> Lista de frameworks/biblotecas:</OutraLista>
+      <OutraLista itens={[]}> Lista vazia:</OutraLista>
     </div>
   )
 }
