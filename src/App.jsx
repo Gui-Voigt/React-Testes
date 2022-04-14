@@ -7,10 +7,15 @@ import Evento from './components/Evento'
 import Form from './components/Form'
 import Conditional from './components/Conditional'
 import OutraLista from './components/OutraLista'
+import SeuNome from './components/SeuNome'
+import {useState} from 'react'
+import Saudacao from './components/Saudacao'
 
 const meusItens = ['React', 'Vue', 'Angular']  
 
 function App() {
+  const [nome, setNome] = useState()
+
   return (
     <div>
       <HelloWorld/>
@@ -33,6 +38,13 @@ function App() {
       <h2> Renderização de Listas </h2>
       <OutraLista itens={meusItens}> Lista de frameworks/biblotecas:</OutraLista>
       <OutraLista itens={[]}> Lista vazia:</OutraLista>
+   
+      <hr></hr>
+      <h2> State Lift </h2>
+      <SeuNome setNome = {setNome}/>
+      <Saudacao nome = {nome}/>
+
+
     </div>
   )
 }
