@@ -17,35 +17,35 @@ function App() {
   const [nome, setNome] = useState()
 
   return (
-    <div>
-      <HelloWorld/>
-      <SayMyName name="Guilherme"/>
-      <List/>
+      <div>
+        <HelloWorld/>
+        <SayMyName name="Guilherme"/>
+        <List/>
 
-      <hr></hr>
+        <hr></hr>
 
-      <h1> TESTANDO EVENTOS </h1>
-      <Evento/>
+        <h1> TESTANDO EVENTOS </h1>
+        <Evento/>
 
-      <hr></hr>
-      <Form/>
+        <hr></hr>
+        <Form/>
 
-      <hr></hr>
-      <h2> Renderização condicional </h2>
-      <Conditional/>
+        <hr></hr>
+        <h2> Renderização condicional </h2>
+        <Conditional/>
 
-      <hr></hr>
-      <h2> Renderização de Listas </h2>
-      <OutraLista itens={meusItens}> Lista de frameworks/biblotecas:</OutraLista>
-      <OutraLista itens={[]}> Lista vazia:</OutraLista>
-   
-      <hr></hr>
-      <h2> State Lift </h2>
-      <SeuNome setNome = {setNome}/>
-      <Saudacao nome = {nome}/>
+        <hr></hr>
+        <h2> Renderização de Listas </h2>
+        <OutraLista itens={meusItens}> Lista de frameworks/biblotecas:</OutraLista>
+        <OutraLista itens={[]}> Lista vazia:</OutraLista>
+    
+        <hr></hr>
+        <h2> State Lift </h2>
+        <SeuNome setNome = {setNome}/>
+        <Saudacao nome = {nome}/>
 
 
-    </div>
+      </div>
   )
 }
 
