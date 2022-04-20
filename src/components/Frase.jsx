@@ -4,7 +4,8 @@ function Frase (props) {
     
     return(
         <div className={styles.fraseContainer}>
-            <p className={styles.fraseContent}>{props.children}</p>
+            <span className={styles.fraseContent}>{props.children}</span>
+           
         </div>
     )
 }
