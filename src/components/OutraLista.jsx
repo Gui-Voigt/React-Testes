@@ -2,6 +2,7 @@ function OutraLista( props ){
 const itens = props.itens
 const frase = props.children
 
+
     return(
         <>
             <h3>{frase}</h3>

@@ -1,6 +1,6 @@
-import Item from './Item'
+import Item from '../components/Item'
 
-function List(){
+function Lista(){
     return(
         <>
             <h1> Minha lista</h1>
@@ -11,8 +11,7 @@ function List(){
             </ul>
         </>
 
-
     )
 }
 
-export default List
+export default Lista

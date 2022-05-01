@@ -10,12 +10,12 @@ function Item ({marca, lancamento}){
 
 Item.propTypes = {
     marca: PropTypes.string, //informa que a prop marca deve ser string
-    lancamento : PropTypes.number.isRequired //informa que lancamento deve ser number e é obrigatória
+    Lancamento : PropTypes.number.isRequired //informa que lancamento deve ser number e é obrigatória
 }
 
 Item.defaultProps = {
     marca: "Faltou a marca",
-    lancamento: 2010
+    Lancamento: 2010
 } //Define valores padrões
 
 export default Item

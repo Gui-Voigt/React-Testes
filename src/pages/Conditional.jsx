@@ -18,6 +18,8 @@ function Conditional (){
 
     return(
         <>
+            
+            <h1> Renderização condicional </h1>
             <h2> Cadastre o seu e-mail </h2>
             <form>
                 <label name='email'>E-mail: </label>
